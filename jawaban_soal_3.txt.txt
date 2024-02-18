@@ -1,0 +1,17 @@
+Pada github, fork adalah proses membuat duplikat dari repo orang lain beserta historynya.
+Hal ini dilakukan untuk beberapa tujuan, diantaranya:
+- untuk modifikasi terhadap repo original,
+- untuk kontribusi pada repo orang lain.
+Fork != clone
+Fork itu menduplikat repo orang lain ke repo kita, sedangkat clone itu menduplikat repo orang lain ke komputer kita.
+
+Cara yang bisa dilakukan untuk forking adalah:
+- Pada repo yang ingin kalian fork-an, klik "fork" di sebelah kanan atas page.
+- Halaman otomatis ke repo Anda dan menampilkan duplikan repo yang telah Anda forking (terdapat keterangan "forked from" sebagai credit)
+
+Jika Anda mengedit repo yang sudah Anda fork, lalu Anda melakukan commit. File yang telah Anda commit hanya tersimpan di branch milik Anda. Lalu bagaimana jika Anda ingin membagikan kontribusi Anda kepada pemilik repo yang sebelumnya di fork-an? Anda dapat melakukan pull request. Pull request adalah proses mengajukan hasil kontribusi Anda pada repo yang Anda fork kepada pemiliknya. Caranya adalah dengan 
+- klik "New pull request",
+- klik "create pull request",
+- berikan pesan untuk pemilik repo,
+- klik "create pull request",
+- Lalu kita tingga menunggu apakah kontribusi Anda diterima atau tidak oleh pemilik repo.

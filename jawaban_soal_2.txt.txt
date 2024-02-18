@@ -1,0 +1,6 @@
+Rebase merupakan salah satu cara kita memilih git workflow. Selain menggunakan teknik merging, kita dapat melakukan metode rebase. Jadi, rebase adalah workflow yang tidak menggunakan merging. Saya asumsikan Anda sudah tahu tipe merging fast-forward dan commit merging. Pada kasus yang kompleks, kita dapat menemukan suatu repo memiliki lebih dari dua branch. Ketika ingin me-merge branch-branch tersebut, cukup melelahkan bila melakukan commit merging satu-satu pada semua branch. Kendati demikian, kita dapat melakukan rebase. Misalkan kita memiliki branch A, lalu mebuat branch baru yaitu branch B. Setelah itu, kita sudah melakukan (minimal satu) commit pada kedua branch. Kita tidak bisa langsung melakukan fast-forward merging. Jika kita menggunakan rebase, rebase akan maju ke commit terakhir masternya (branch A). Sehingga kita cukup melakukan fast-forward merging. Yang kita lakukan untuk rebase adalah:
+- pastikan berada di branch B,
+- ketik "git rebase A",
+- Pergi ke branch A "git checkout A",
+- ketik "git rebase B",
+- selesai.
